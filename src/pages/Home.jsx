@@ -24,6 +24,7 @@ const Home = () => {
                 <Button backgroundColor='color.verde' color='color.blanco' width='60%' height='4rem' fontWeight='700' fontSize='xl' borderRadius='10px' >Agregar productos</Button>
             </Stack>    
         </Stack>
+        
     </Box>
   )
 }
