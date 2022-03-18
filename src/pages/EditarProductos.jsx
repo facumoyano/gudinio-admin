@@ -3,18 +3,19 @@ import FormCargarProductos from "../components/FormCargarProductos"
 import Header from "../components/Header"
 
 
-const CargarProductos = () => {
+
+const EditarProductos = () => {
   return (
     <>
-          <Header titulo='Cargar productos' />
-          <Container maxW='container.md' margin='0 auto' mt={8}>
+        <Header titulo='Editar productos' />
+        <Container maxW='container.md' margin='0 auto' mt={8}>
             <Heading as='h2' textAlign='center'>
-                Alta productos
+                Editar productos
             </Heading>
-            <FormCargarProductos button1='Agregar' button2='Eliminar' />
+            <FormCargarProductos button1='Editar' button2='Cancelar'  />
           </Container>
     </>
   )
 }
 
-export default CargarProductos
+export default EditarProductos
